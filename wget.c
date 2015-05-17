@@ -159,7 +159,7 @@ void createDirectories(int size , char ** names){
 		sprintf(path , "./");
 		strcat (path ,names[i]);
 		// printf("path is %s \n" , path );
-		mkdir(names[0] , 0777);
+		mkdir(names[0	] , 0777);
 		chdir(path);
 	}
 
